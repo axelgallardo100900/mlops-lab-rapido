@@ -1,6 +1,6 @@
 import json, sys
 
-MIN_ACC = 0.90
+MIN_ACC = 0.99
 
 def main():
     with open("artifacts/metrics.json") as f:
